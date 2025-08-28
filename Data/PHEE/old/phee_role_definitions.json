@@ -1,0 +1,28 @@
+{
+"main-arguments": {
+        "subject": "Individual or patient involved in the medical event.",
+        "treatment": "Describe the therapy administered to the patients.",
+        "effect": "Describe the outcomes or side effects of the treatments."
+},
+"sub-arguments": {
+        "subject": {
+                "age": "Age of the subject?",
+                "gender": "Gender of the subject.",
+                "population": "Number of patients receiving the treatment.",
+                "race": "Race/nationality of the subject",
+                "disorder": "preexisting conditions, i.e., disorders that the subject suffers other than the target disorder of the treatment."
+        },
+        "treatment": {
+                "drug": "Drug used as therapy in the event.",
+                "dosage": "The amount of drug is given",
+                "freq": "The frequency of drug use",
+                "route": "The route of drug administration",
+                "time_elapsed": "The time elapsed after the drug was administered to the occurrence of the (side) effect",
+                "duration": "how long the patient has been taking the medicine (usually for long-term medication).",
+                "disorder": "The target disorder of the medicine administration"
+        }
+        
+}
+}
+               
+      

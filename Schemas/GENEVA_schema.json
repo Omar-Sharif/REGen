@@ -1,0 +1,689 @@
+{
+        "catastrophe": {
+          "undesirable_event": "What is the undesirable event?",
+          "patient": "Who is the patient?",
+          "cause": "What is the cause?",
+          "place": "Where did this event occur?"
+        },
+        "request": {
+          "message": "What is the message?",
+          "speaker": "Who is the speaker?",
+          "medium": "What medium is being used?",
+          "addressee": "Who is the addressee?"
+        },
+        "assistance": {
+          "goal": "What is the goal?",
+          "helper": "Who is the helper?",
+          "benefited_party": "Who is the benefited party?",
+          "focal_entity": "What is the focal entity?",
+          "means": "What means are being used?"
+        },
+        "response": {
+          "agent": "Who is the agent?",
+          "trigger": "What triggered the response?",
+          "response": "What is the response?",
+          "responding_entity": "Who is responding?"
+        },
+        "attack": {
+          "assailant": "Who is the assailant?",
+          "weapon": "What weapon is being used?",
+          "victim": "Who is the victim?",
+          "means": "What means are being used?"
+        },
+        "terrorism": {
+          "terrorist": "Who is the terrorist?",
+          "act": "What act is being committed?",
+          "instrument": "What instrument is being used?",
+          "victim": "Who is the victim?"
+        },
+        "cause_to_make_progress": {
+          "agent": "Who is the agent?",
+          "project": "What project is involved?"
+        },
+        "telling": {
+          "speaker": "Who is the speaker?",
+          "addressee": "Who is the addressee?",
+          "message": "What is the message?"
+        },
+        "statement": {
+          "speaker": "Who is the speaker?",
+          "message": "What is the message?",
+          "medium": "What medium is being used?",
+          "addressee": "Who is the addressee?"
+        },
+        "using": {
+          "agent": "Who is the agent?",
+          "instrument": "What instrument is being used?",
+          "purpose": "What is the purpose?",
+          "means": "What means are being used?"
+        },
+        "building": {
+          "created_entity": "What entity is created?",
+          "place": "Where is it being created?",
+          "agent": "Who is the agent?",
+          "components": "What components are involved?"
+        },
+        "communication": {
+          "addressee": "Who is the addressee?",
+          "speaker": "Who is the speaker?",
+          "interlocutors": "Who are the interlocutors?",
+          "message": "What is the message?",
+          "topic": "What is the topic?",
+          "trigger": "What triggered the communication?"
+        },
+        "practice": {
+          "occasion": "What is the occasion?",
+          "action": "What is the action?",
+          "agent": "Who is the agent?"
+        },
+        "sending": {
+          "recipient": "Who is the recipient?",
+          "theme": "What is the theme?",
+          "sender": "Who is the sender?",
+          "source": "Where is it sent from?",
+          "goal": "What is the goal?",
+          "vehicle": "What vehicle is being used?",
+          "transferors": "Who are the transferors?",
+          "means": "What means are being used?"
+        },
+        "presence": {
+          "entity": "What is the entity?",
+          "time": "When does this occur?",
+          "duration": "What is the duration?",
+          "circumstances": "What are the circumstances?",
+          "place": "Where does this occur?",
+          "inherent_purpose": "What is the inherent purpose?"
+        },
+        "participation": {
+          "participants": "Who are the participants?",
+          "event": "What event are they participating in?"
+        },
+        "motion": {
+          "path": "What is the path taken?",
+          "theme": "What is the theme?",
+          "goal": "What is the goal?",
+          "agent": "Who is the agent?",
+          "source": "Where does it originate?",
+          "distance": "What is the distance?",
+          "cause": "What is the cause of the motion?",
+          "means": "What means are being utilized?",
+          "area": "What area is involved?",
+          "speed": "What is the speed of the motion?"
+        },
+        "causation": {
+          "cause": "What is the cause?",
+          "effect": "What is the effect?",
+          "affected": "Who is affected?",
+          "actor": "Who is the actor?",
+          "means": "What means are involved?"
+        },
+        "testing": {
+          "tested_property": "What property is being tested?",
+          "tester": "Who is the tester?",
+          "product": "What product is being tested?",
+          "circumstances": "What are the circumstances?",
+          "means": "What means are being used?",
+          "result": "What is the result?"
+        },
+        "action": {
+          "act": "What act is being performed?",
+          "agent": "Who is the agent?",
+          "manner": "What is the manner of the action?",
+          "domain": "What is the domain of the action?"
+        },
+        "killing": {
+          "instrument": "What instrument was used?",
+          "victim": "Who is the victim?",
+          "killer": "Who is the killer?",
+          "cause": "What is the cause of the killing?",
+          "means": "What means were used?"
+        },
+        "social_event": {
+          "social_event": "What is the social event?",
+          "occasion": "What is the occasion?",
+          "beneficiary": "Who benefits from the event?",
+          "attendees": "Who are the attendees?",
+          "host": "Who is the host?"
+        },
+        "commitment": {
+          "speaker": "Who is the speaker?",
+          "message": "What is the message?",
+          "addressee": "Who is the addressee?"
+        },
+        "receiving": {
+          "recipient": "Who is the recipient?",
+          "theme": "What is the theme?",
+          "donor": "Who is the donor?"
+        },
+        "know": {
+          "instrument": "What instrument is used to know?",
+          "phenomenon": "What phenomenon is known?",
+          "cognizer": "Who is the cognizer?",
+          "evidence": "What evidence supports this knowledge?",
+          "topic": "What is the topic?",
+          "means": "What means are involved?"
+        },
+        "becoming": {
+          "final_category": "What is the final category?",
+          "entity": "What entity is involved?",
+          "final_quality": "What is the final quality?"
+        },
+        "collaboration": {
+          "undertaking": "What undertaking is being collaborated on?",
+          "partners": "Who are the partners in this collaboration?"
+        },
+        "resolve_problem": {
+          "agent": "Who is the agent resolving the problem?",
+          "problem": "What is the problem?",
+          "cause": "What is the cause of the problem?",
+          "means": "What means are being used to resolve it?"
+        },
+        "deciding": {
+          "decision": "What decision is being made?",
+          "cognizer": "Who is making the decision?"
+        },
+        "process_end": {
+          "process": "What is the process?",
+          "time": "When does this occur?",
+          "agent": "Who is the agent?",
+          "state": "What is the state of the process?",
+          "cause": "What is the cause of the process ending?",
+          "final_subevent": "What is the final subevent?"
+        },
+        "bringing": {
+          "carrier": "Who is the carrier?",
+          "theme": "What is the theme?",
+          "goal": "What is the goal?",
+          "agent": "Who is the agent?",
+          "source": "Where is it coming from?",
+          "area": "What area is involved?"
+        },
+        "arriving": {
+          "goal": "What is the goal?",
+          "theme": "What is the theme?",
+          "purpose": "What is the purpose?",
+          "path": "What path is taken?",
+          "means": "What means are being used?",
+          "source": "Where does it come from?",
+          "place": "Where is it arriving?"
+        },
+        "scrutiny": {
+          "ground": "What is the ground for scrutiny?",
+          "cognizer": "Who is the cognizer?",
+          "unwanted_entity": "What is the unwanted entity?",
+          "instrument": "What instrument is used?",
+          "phenomenon": "What phenomenon is being scrutinized?"
+        },
+        "creating": {
+          "created_entity": "What entity is being created?",
+          "creator": "Who is the creator?",
+          "cause": "What is the cause of creation?"
+        },
+        "legality": {
+          "object": "What is the object?",
+          "action": "What action is being taken?"
+        },
+        "hostile_encounter": {
+          "side_2": "Who is side 2?",
+          "side_1": "Who is side 1?",
+          "instrument": "What instrument is being used?",
+          "sides": "What sides are involved?",
+          "issue": "What is the issue?",
+          "purpose": "What is the purpose?"
+        },
+        "confronting_problem": {
+          "activity": "What activity is involved?",
+          "experiencer": "Who is the experiencer?"
+        },
+        "criminal_investigation": {
+          "suspect": "Who is the suspect?",
+          "incident": "What is the incident?",
+          "investigator": "Who is the investigator?"
+        },
+        "change_of_leadership": {
+          "old_leader": "Who is the old leader?",
+          "old_order": "What is the old order?",
+          "selector": "Who is the selector?",
+          "new_leader": "Who is the new leader?",
+          "role": "What is the role?",
+          "body": "What body is involved?"
+        },
+        "arrest": {
+          "suspect": "Who is the suspect?",
+          "authorities": "Who are the authorities?",
+          "offense": "What is the offense?",
+          "charges": "What charges are being brought?"
+        },
+        "giving": {
+          "offerer": "Who is the offerer?",
+          "theme": "What is the theme?",
+          "recipient": "Who is the recipient?"
+        },
+        "placing": {
+          "agent": "Who is the agent?",
+          "theme": "What theme is being placed?",
+          "location": "Where is it being placed?",
+          "cause": "What is the cause of the placement?"
+        },
+        "education_teaching": {
+          "course": "What course is being taught?",
+          "subject": "What is the subject?",
+          "skill": "What skill is being taught?",
+          "teacher": "Who is the teacher?",
+          "student": "Who is the student?",
+          "role": "What is the role?",
+          "fact": "What fact is being covered?"
+        },
+        "becoming_a_member": {
+          "new_member": "Who is the new member?",
+          "group": "What group are they joining?"
+        },
+        "connect": {
+          "figures": "What figures are being connected?",
+          "ground": "What ground is used?"
+        },
+        "coming_to_believe": {
+          "cognizer": "Who is the cognizer?",
+          "content": "What is the content of belief?",
+          "means": "What means led to this belief?"
+        },
+        "containing": {
+          "container": "What is the container?",
+          "contents": "What are the contents?"
+        },
+        "commerce_buy": {
+          "buyer": "Who is the buyer?",
+          "goods": "What goods are being purchased?",
+          "seller": "Who is the seller?"
+        },
+        "rite": {
+          "member": "Who is the member?",
+          "object": "What object is involved?",
+          "type": "What type of rite is it?"
+        },
+        "check": {
+          "unconfirmed_content": "What is the unconfirmed content?",
+          "means": "What means are being used for checking?",
+          "inspector": "Who is the inspector?"
+        },
+        "defending": {
+          "victim": "Who is the victim?",
+          "assailant": "Who is the assailant?",
+          "defender": "Who is the defender?",
+          "instrument": "What instrument is used for defense?"
+        },
+        "death": {
+          "deceased": "Who is the deceased?"
+        },
+        "destroying": {
+          "destroyer": "Who is the destroyer?",
+          "patient": "What is the patient?",
+          "means": "What means are being used?",
+          "cause": "What is the cause of destruction?"
+        },
+        "bodily_harm": {
+          "victim": "Who is the victim?",
+          "agent": "Who is the agent causing harm?",
+          "instrument": "What instrument is being used?",
+          "body_part": "What body part is affected?",
+          "cause": "What is the cause of the harm?"
+        },
+        "emptying": {
+          "agent": "Who is the agent?",
+          "source": "Where is it being emptied from?",
+          "theme": "What is being emptied?",
+          "cause": "What is the cause of the emptying?"
+        },
+        "expansion": {
+          "item": "What item is being expanded?",
+          "agent": "Who is the agent?",
+          "dimension": "What dimension is affected?",
+          "initial_size": "What was the initial size?",
+          "result_size": "What is the result size?"
+        },
+        "process_start": {
+          "agent": "Who is the agent starting the process?",
+          "event": "What event is involved?",
+          "time": "When does this process start?",
+          "initial_subevent": "What is the initial subevent?"
+        },
+        "conquering": {
+          "theme": "What is being conquered?",
+          "conqueror": "Who is the conqueror?",
+          "means": "What means are being used for conquering?"
+        },
+        "getting": {
+          "recipient": "Who is the recipient?",
+          "theme": "What theme is being attained?",
+          "means": "What means are being used?",
+          "source": "Where does it come from?"
+        },
+        "control": {
+          "controlling_variable": "What is the controlling variable?",
+          "dependent_variable": "What is the dependent variable?"
+        },
+        "bearing_arms": {
+          "protagonist": "Who is the protagonist?",
+          "weapon": "What weapon is being used?"
+        },
+        "removing": {
+          "agent": "Who is the agent?",
+          "theme": "What theme is being removed?",
+          "source": "Where is it being removed from?",
+          "cause": "What is the cause of the removal?",
+          "goal": "What is the goal of the removal?"
+        },
+        "cost": {
+          "goods": "What goods are involved?",
+          "asset": "What asset is considered?",
+          "intended_event": "What event is anticipated?",
+          "payer": "Who is the payer?",
+          "rate": "What is the rate?"
+        },
+        "sign_agreement": {
+          "signatory": "Who is the signatory?",
+          "agreement": "What is the agreement?"
+        },
+        "research": {
+          "topic": "What is the research topic?",
+          "researcher": "Who is conducting the research?",
+          "field": "What field of study is involved?"
+        },
+        "protest": {
+          "arguer": "Who is making the argument?",
+          "content": "What is the content of the protest?",
+          "addressee": "Who is the addressee?"
+        },
+        "reveal_secret": {
+          "information": "What information is being revealed?",
+          "topic": "What is the topic?",
+          "speaker": "Who is the speaker?",
+          "addressee": "Who is the addressee?"
+        },
+        "manufacturing": {
+          "product": "What product is being manufactured?",
+          "producer": "Who is the producer?",
+          "factory": "Where is the factory located?",
+          "resource": "What resource is being utilized?",
+          "instrument": "What instrument is being used?"
+        },
+        "judgment_communication": {
+          "medium": "What medium is being used?",
+          "evaluee": "Who is the evaluee?",
+          "communicator": "Who is the communicator?",
+          "reason": "What is the reason for the judgment?",
+          "addressee": "Who is the addressee?",
+          "topic": "What is the topic?"
+        },
+        "exchange": {
+          "theme_1": "What is theme 1?",
+          "theme_2": "What is theme 2?",
+          "themes": "What are the themes involved?",
+          "exchanger_1": "Who is exchanger 1?",
+          "exchanger_2": "Who is exchanger 2?",
+          "exchangers": "Who are the exchangers?"
+        },
+        "cause_change_of_position_on_a_scale": {
+          "agent": "Who is the agent causing the change?",
+          "item": "What is the item? ",
+          "attribute": "What attribute is changing?",
+          "value_2": "What is the new value?",
+          "cause": "What is the cause of the change?",
+          "difference": "What is the difference?",
+          "value_1": "What is the original value?"
+        },
+        "ratification": {
+          "ratifier": "Who is the ratifier?",
+          "proposal": "What proposal is being ratified?"
+        },
+        "damaging": {
+          "patient": "Who or what is the patient?",
+          "cause": "What caused the damage?",
+          "agent": "Who is the agent causing the damage?"
+        },
+        "self_motion": {
+          "self_mover": "Who is the self-mover?",
+          "goal": "What is the goal?",
+          "path": "What path is taken?",
+          "distance": "What is the distance?",
+          "source": "Where does the motion originate?",
+          "direction": "What is the direction?"
+        },
+        "supply": {
+          "supplier": "Who is the supplier?",
+          "theme": "What theme is being supplied?",
+          "recipient": "Who is the recipient?",
+          "imposed_purpose": "What is the imposed purpose?"
+        },
+        "departing": {
+          "traveller": "Who is the traveller?",
+          "source": "Where does the journey start?",
+          "goal": "What is the goal of the travel?",
+          "path": "What path is taken?"
+        },
+        "commerce_sell": {
+          "buyer": "Who is the buyer?",
+          "seller": "Who is the seller?",
+          "goods": "What goods are being sold?",
+          "money": "What money is involved?"
+        },
+        "commerce_pay": {
+          "goods": "What goods are involved?",
+          "buyer": "Who is the buyer?",
+          "money": "What payment is being made?",
+          "seller": "Who is the seller?"
+        },
+        "preventing_or_letting": {
+          "agent": "Who is the agent?",
+          "event": "What event is being prevented or allowed?",
+          "potential_hindrance": "What is the potential hindrance?",
+          "means": "What means are being used?"
+        },
+        "labeling": {
+          "entity": "What entity is being labeled?",
+          "label": "What label is used?",
+          "speaker": "Who is the speaker?"
+        },
+        "convincing": {
+          "speaker": "Who is the speaker?",
+          "addressee": "Who is the addressee?",
+          "content": "What is the content being conveyed?",
+          "topic": "What is the topic?"
+        },
+        "quarreling": {
+          "issue": "What is the issue being argued?",
+          "arguers": "Who are the arguers?",
+          "arguer2": "Who is the second arguer?"
+        },
+        "employment": {
+          "employee": "Who is the employee?",
+          "task": "What is the task?",
+          "field": "What field is involved?",
+          "place_of_employment": "Where is the place of employment?",
+          "position": "What is the position?",
+          "type": "What type of employment is it?",
+          "employer": "Who is the employer?"
+        },
+        "influence": {
+          "agent": "Who is the agent?",
+          "cognizer": "Who is the cognizer?",
+          "product": "What product is involved?",
+          "situation": "What situation is it in?",
+          "behavior": "What behavior is influenced?",
+          "action": "What action is influenced?"
+        },
+        "change": {
+          "entity": "What entity is being changed?",
+          "agent": "Who is the agent making the change?",
+          "final_category": "What is the final category?",
+          "cause": "What is the cause of the change?",
+          "attribute": "What attribute is changing?",
+          "final_value": "What is the final value?",
+          "initial_category": "What is the initial category?"
+        },
+        "agree_or_refuse_to_act": {
+          "speaker": "Who is the speaker?",
+          "proposed_action": "What is the proposed action?"
+        },
+        "achieve": {
+          "agent": "Who is the agent?",
+          "goal": "What is the goal?",
+          "means": "What means are being used to achieve it?"
+        },
+        "adducing": {
+          "speaker": "Who is the speaker?",
+          "specified_entity": "What entity is being specified?",
+          "role": "What role does it play?",
+          "medium": "What medium is being used?"
+        },
+        "cause_to_amalgamate": {
+          "agent": "Who is the agent causing amalgamation?",
+          "part_1": "What is part 1?",
+          "part_2": "What is part 2?",
+          "parts": "What are the parts involved?",
+          "whole": "What is the whole entity?"
+        },
+        "arranging": {
+          "theme": "What is being arranged?",
+          "configuration": "What is the configuration?",
+          "location": "Where is it being arranged?",
+          "agent": "Who is the agent?"
+        },
+        "dispersal": {
+          "agent": "Who is the agent causing dispersal?",
+          "individuals": "Who are the individuals involved?",
+          "cause": "What is the cause of dispersal?",
+          "goal_area": "What is the goal area?"
+        },
+        "coming_to_be": {
+          "entity": "What entity is coming to be?",
+          "place": "Where does this happen?",
+          "time": "When does it happen?",
+          "components": "What components are involved?"
+        },
+        "come_together": {
+          "individuals": "Who are the individuals coming together?",
+          "configuration": "What is the configuration?",
+          "place": "Where does this happen?"
+        },
+        "emergency": {
+          "place": "Where is the emergency happening?",
+          "undesirable_event": "What is the undesirable event?"
+        },
+        "filling": {
+          "theme": "What theme is being filled?",
+          "goal": "What is the goal of filling?",
+          "agent": "Who is the agent?",
+          "cause": "What is the cause of filling?"
+        },
+        "competition": {
+          "competition": "What competition is taking place?",
+          "participants": "Who are the participants?",
+          "venue": "What is the venue for the competition?"
+        },
+        "writing": {
+          "author": "Who is the author?",
+          "text": "What text is being written?",
+          "addressee": "Who is the addressee?",
+          "instrument": "What instrument is used for writing?"
+        },
+        "earnings_and_losses": {
+          "earnings": "What are the earnings?",
+          "earner": "Who is the earner?",
+          "goods": "What goods are involved?"
+        },
+        "getready": {
+          "protagonist": "Who is the protagonist?",
+          "activity": "What activity are they preparing for?"
+        },
+        "committing_crime": {
+          "perpetrator": "Who is the perpetrator?",
+          "crime": "What crime is being committed?",
+          "instrument": "What instrument is used?"
+        },
+        "traveling": {
+          "traveler": "Who is the traveler?",
+          "goal": "What is the goal of the travel?",
+          "means": "What means are being used?",
+          "purpose": "What is the purpose of the travel?",
+          "distance": "What distance is covered?",
+          "area": "What area is being traveled?",
+          "entity": "What entity is involved?",
+          "path": "What path is taken?"
+        },
+        "wearing": {
+          "clothing": "What clothing is being worn?",
+          "body_location": "Where on the body is it worn?",
+          "wearer": "Who is wearing it?"
+        },
+        "cure": {
+          "medication": "What medication is used?",
+          "affliction": "What is the affliction being treated?",
+          "treatment": "What treatment is applied?",
+          "patient": "Who is the patient?"
+        },
+        "supporting": {
+          "supported": "Who is being supported?",
+          "supporter": "Who is the supporter?"
+        },
+        "choosing": {
+          "chosen": "What is being chosen?",
+          "cognizer": "Who is the cognizer making the choice?",
+          "possibilities": "What possibilities are there to choose from?"
+        },
+        "perception_active": {
+          "phenomenon": "What phenomenon is being perceived?",
+          "perceiver_agentive": "Who is the perceiver?",
+          "direction": "What is the direction of perception?"
+        },
+        "ingestion": {
+          "ingestor": "Who is the ingestor?",
+          "ingestibles": "What is being ingested?"
+        },
+        "hindering": {
+          "hindrance": "What is the hindrance?",
+          "action": "What action is being hindered?",
+          "protagonist": "Who is the protagonist?"
+        },
+        "revenge": {
+          "punishment": "What punishment is sought?",
+          "avenger": "Who is the avenger?",
+          "offender": "Who is the offender?",
+          "injury": "What injury occurred?",
+          "injured_party": "Who is the injured party?"
+        },
+        "hold": {
+          "manipulator": "Who is the manipulator?",
+          "entity": "What entity is being held?"
+        },
+        "motion_directional": {
+          "theme": "What is the theme of the motion?",
+          "direction": "What is the direction of the motion?",
+          "path": "What path is taken?",
+          "source": "Where does the motion start?",
+          "area": "What area is involved?",
+          "goal": "What is the goal of the motion?"
+        },
+        "create_artwork": {
+          "activity": "What activity is involved in creating the artwork?",
+          "culture": "What culture is associated with this artwork?"
+        },
+        "openness": {
+          "useful_location": "What is the useful location?",
+          "theme": "What theme is being discussed?",
+          "barrier": "What barrier exists?"
+        },
+        "recovering": {
+          "entity": "What entity is recovering?",
+          "agent": "Who is the agent helping in recovery?",
+          "means": "What means are being used?"
+        },
+        "theft": {
+          "perpetrator": "Who is the perpetrator of the theft?",
+          "goods": "What goods were stolen?",
+          "means": "What means were used?",
+          "source": "Where were they taken from?",
+          "instrument": "What instrument was used in the theft?",
+          "victim": "Who is the victim of the theft?"
+        }
+}

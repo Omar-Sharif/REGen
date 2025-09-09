@@ -1,0 +1,26 @@
+{
+        "main-arguments": {
+                "subject": "Individual or patient involved in the medical event.",
+                "treatment": "What is the therapy administered to the patients?",
+                "effect": "What are the outcomes or side effects of the treatments?"
+        },
+        "subject": {
+                "subject-age": "What is the age of the subject?",
+                "subject-gender": "What is the Gender of the subject?",
+                "subject-population": "Number of patients receiving the treatment.",
+                "subject-race": "What is the Race/nationality of the subject?",
+                "subject-disorder": "What are the preexisting conditions, i.e., disorders that the subject suffers other than the target disorder of the treatment?"
+        },
+        "treatment": {
+                "treatment-drug": "Whare the the drugs used as therapy in the event?",
+                "treatment-dosage": "What is the amount of drug is given?",
+                "treatment-freq": "The frequency of drug use",
+                "treatment-route": "What is the route of drug administration?",
+                "treatment-time_elapsed": "How much time elapsed after the drug was administered to the occurrence of the (side) effect?",
+                "treatment-duration": "How long the patient has been taking the medicine (usually for long-term medication)?",
+                "treatment-disorder": "What is the target disorder of the medicine administration?"
+        }
+
+}
+               
+      

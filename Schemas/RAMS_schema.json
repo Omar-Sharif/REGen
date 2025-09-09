@@ -1,0 +1,787 @@
+{
+  "life.die.deathcausedbyviolentevents": {
+    "instrument": "What instrument was used?",
+    "killer": "Who is the killer?",
+    "victim": "Who is the victim?",
+    "place": "Where did this event occur?"
+  },
+  "movement.transportartifact.hide": {
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being hidden?",
+    "vehicle": "What vehicle is being used?",
+    "transporter": "Who is the transporter?",
+    "hidingplace": "Where is the hiding place?"
+  },
+  "conflict.attack.selfdirectedbattle": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "life.injure.illnessdegradationphysical": {
+    "victim": "Who is the victim?"
+  },
+  "contact.commitmentpromiseexpressintent.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "justice.arrestjaildetain.arrestjaildetain": {
+    "jailer": "Who is the jailer?",
+    "crime": "What is the crime?",
+    "place": "Where does this event occur?",
+    "detainee": "Who is the detainee?"
+  },
+  "contact.discussion.meet": {
+    "place": "Where does this meeting take place?",
+    "participant": "Who is the participant?"
+  },
+  "life.injure.injurycausedbyviolentevents": {
+    "instrument": "What instrument was used?",
+    "victim": "Who is the victim?",
+    "place": "Where does this event occur?",
+    "injurer": "Who is the injurer?"
+  },
+  "personnel.endposition.n/a": {
+    "employee": "Who is the employee?",
+    "placeofemployment": "What is the place of employment?",
+    "place": "Where does this event occur?"
+  },
+  "transaction.transferownership.n/a": {
+    "recipient": "Who is the recipient?",
+    "artifact": "What artifact is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "justice.investigate.investigatecrime": {
+    "crime": "What is the crime being investigated?",
+    "investigator": "Who is the investigator?",
+    "place": "Where does this investigation take place?",
+    "defendant": "Who is the defendant?"
+  },
+  "contact.collaborate.n/a": {
+    "place": "Where does this collaboration take place?",
+    "participant": "Who is the participant?"
+  },
+  "government.agreements.violateagreement": {
+    "violator": "Who is the violator?",
+    "place": "Where does this violation occur?",
+    "otherparticipant": "Who is the other participant?"
+  },
+  "movement.transportperson.prevententry": {
+    "destination": "Where is the intended destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "preventer": "Who is the preventer?"
+  },
+  "contact.commandorder.broadcast": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "transaction.transfermoney.n/a": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "justice.initiatejudicialprocess.n/a": {
+    "prosecutor": "Who is the prosecutor?",
+    "judgecourt": "Who is the judge or court?",
+    "crime": "What is the crime?",
+    "place": "Where does this process take place?",
+    "defendant": "Who is the defendant?"
+  },
+  "contact.prevarication.broadcast": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "conflict.attack.stealrobhijack": {
+    "artifact": "What artifact is involved?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "instrument": "What instrument was used?",
+    "target": "Who is the target?"
+  },
+  "life.injure.illnessdegradationhungerthirst": {
+    "victim": "Who is the victim?",
+    "place": "Where does this event occur?"
+  },
+  "contact.negotiate.meet": {
+    "place": "Where does this meeting take place?",
+    "participant": "Who is the participant?"
+  },
+  "contact.threatencoerce.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "contact.commitmentpromiseexpressintent.broadcast": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "personnel.elect.n/a": {
+    "voter": "Who is the voter?",
+    "place": "Where does this election take place?",
+    "candidate": "Who is the candidate?"
+  },
+  "transaction.transfermoney.purchase": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "contact.requestadvise.correspondence": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this correspondence take place?"
+  },
+  "movement.transportartifact.disperseseparate": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being transported?",
+    "vehicle": "What vehicle is being used?",
+    "transporter": "Who is the transporter?"
+  },
+  "government.legislate.legislate": {
+    "governmentbody": "Which government body is involved?",
+    "place": "Where does this legislation take place?",
+    "law": "What law is being legislated?"
+  },
+  "movement.transportperson.preventexit": {
+    "destination": "Where is the intended destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "preventer": "Who is the preventer?"
+  },
+  "contact.negotiate.n/a": {
+    "place": "Where does this negotiation take place?",
+    "participant": "Who is the participant?"
+  },
+  "government.agreements.n/a": {
+    "place": "Where does this agreement take place?",
+    "participant": "Who is the participant?"
+  },
+  "justice.judicialconsequences.extradite": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "crime": "What is the crime?",
+    "extraditer": "Who is the extraditer?",
+    "defendant": "Who is the defendant?"
+  },
+  "personnel.endposition.firinglayoff": {
+    "employee": "Who is the employee?",
+    "placeofemployment": "What is the place of employment?",
+    "place": "Where does this event occur?"
+  },
+  "justice.investigate.n/a": {
+    "investigator": "Who is the investigator?",
+    "place": "Where does this investigation take place?",
+    "defendant": "Who is the defendant?"
+  },
+  "movement.transportartifact.sendsupplyexport": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being transported?",
+    "transporter": "Who is the transporter?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "government.agreements.acceptagreementcontractceasefire": {
+    "place": "Where does this agreement take place?",
+    "participant": "Who is the participant?"
+  },
+  "life.injure.n/a": {
+    "victim": "Who is the victim?",
+    "place": "Where does this event occur?",
+    "injurer": "Who is the injurer?"
+  },
+  "disaster.fireexplosion.fireexplosion": {
+    "instrument": "What instrument was used?",
+    "place": "Where does this event occur?",
+    "fireexplosionobject": "What object is involved in the fire/explosion?"
+  },
+  "contact.collaborate.correspondence": {
+    "place": "Where does this correspondence take place?",
+    "participant": "Who is the participant?"
+  },
+  "transaction.transaction.transfercontrol": {
+    "recipient": "Who is the recipient?",
+    "territoryorfacility": "What territory or facility is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transfer take place?",
+    "giver": "Who is the giver?"
+  },
+  "transaction.transfermoney.giftgrantprovideaid": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "movement.transportartifact.nonviolentthrowlaunch": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being launched?",
+    "transporter": "Who is the transporter?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "contact.commitmentpromiseexpressintent.correspondence": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this correspondence take place?"
+  },
+  "conflict.attack.airstrikemissilestrike": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "government.formation.n/a": {
+    "place": "Where does this formation take place?",
+    "founder": "Who is the founder?",
+    "gpe": "What is the GPE involved?"
+  },
+  "movement.transportperson.hide": {
+    "origin": "Where does the movement originate?",
+    "vehicle": "What vehicle is being used?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "hidingplace": "Where is the hiding place?"
+  },
+  "justice.judicialconsequences.execute": {
+    "executioner": "Who is the executioner?",
+    "place": "Where does this event occur?",
+    "crime": "What is the crime?",
+    "defendant": "Who is the defendant?"
+  },
+  "transaction.transaction.embargosanction": {
+    "artifactmoney": "What artifact or money is involved?",
+    "recipient": "Who is the recipient?",
+    "preventer": "Who is the preventer?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "conflict.attack.stabbing": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "conflict.yield.retreat": {
+    "origin": "Where does this retreat originate?",
+    "destination": "Where is the destination?",
+    "retreater": "Who is the retreater?"
+  },
+  "transaction.transfermoney.embargosanction": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "preventer": "Who is the preventer?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "manufacture.artifact.build": {
+    "instrument": "What instrument was used?",
+    "artifact": "What artifact is being built?",
+    "place": "Where does this event take place?",
+    "manufacturer": "Who is the manufacturer?"
+  },
+  "inspection.sensoryobserve.n/a": {
+    "observedentity": "What entity is being observed?",
+    "observer": "Who is the observer?",
+    "place": "Where does this observation occur?"
+  },
+  "justice.initiatejudicialprocess.trialhearing": {
+    "prosecutor": "Who is the prosecutor?",
+    "judgecourt": "Who is the judge or court?",
+    "crime": "What is the crime?",
+    "place": "Where does this hearing take place?",
+    "defendant": "Who is the defendant?"
+  },
+  "movement.transportartifact.smuggleextract": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being transported?",
+    "vehicle": "What vehicle is being used?",
+    "transporter": "Who is the transporter?"
+  },
+  "contact.requestadvise.broadcast": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this request take place?"
+  },
+  "contact.commitmentpromiseexpressintent.meet": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this meeting take place?"
+  },
+  "government.spy.spy": {
+    "observedentity": "Who is the observed entity?",
+    "beneficiary": "Who benefits from the surveillance?",
+    "place": "Where does this event take place?",
+    "spy": "Who is the spy?"
+  },
+  "government.vote.violationspreventvote": {
+    "voter": "Who is the voter?",
+    "candidate": "Who is the candidate?",
+    "ballot": "What is the ballot about?",
+    "preventer": "Who is the preventer?",
+    "place": "Where does this event take place?"
+  },
+  "contact.discussion.n/a": {
+    "place": "Where does this discussion take place?",
+    "participant": "Who is the participant?"
+  },
+  "justice.judicialconsequences.n/a": {
+    "judgecourt": "Who is the judge or court?",
+    "crime": "What is the crime?",
+    "place": "Where does this event occur?",
+    "defendant": "Who is the defendant?"
+  },
+  "conflict.attack.firearmattack": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "contact.prevarication.correspondence": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this correspondence take place?"
+  },
+  "movement.transportartifact.bringcarryunload": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being transported?",
+    "transporter": "Who is the transporter?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "conflict.attack.strangling": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "contact.requestadvise.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this request take place?"
+  },
+  "artifactexistence.damagedestroy.destroy": {
+    "instrument": "What instrument was used?",
+    "artifact": "What is the artifact?",
+    "destroyer": "Who is the destroyer?",
+    "place": "Where does this event occur?"
+  },
+  "life.die.n/a": {
+    "victim": "Who is the victim?",
+    "place": "Where does this event occur?"
+  },
+  "contact.commandorder.correspondence": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this correspondence take place?"
+  },
+  "contact.threatencoerce.meet": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this meeting take place?"
+  },
+  "personnel.startposition.hiring": {
+    "employee": "Who is the employee?",
+    "placeofemployment": "What is the place of employment?",
+    "place": "Where does this hiring take place?"
+  },
+  "conflict.attack.n/a": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "personnel.endposition.quitretire": {
+    "employee": "Who is the employee?",
+    "placeofemployment": "What is the place of employment?",
+    "place": "Where does this event occur?"
+  },
+  "justice.initiatejudicialprocess.chargeindict": {
+    "prosecutor": "Who is the prosecutor?",
+    "judgecourt": "Who is the judge or court?",
+    "crime": "What is the crime?",
+    "place": "Where does this event take place?",
+    "defendant": "Who is the defendant?"
+  },
+  "contact.requestadvise.meet": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this meeting take place?"
+  },
+  "government.formation.startgpe": {
+    "place": "Where does this formation take place?",
+    "gpe": "What is the GPE involved?",
+    "founder": "Who is the founder?"
+  },
+  "transaction.transfermoney.payforservice": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "personnel.elect.winelection": {
+    "voter": "Who is the voter?",
+    "place": "Where does this election take place?",
+    "candidate": "Who is the candidate?"
+  },
+  "movement.transportperson.grantentryasylum": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "granter": "Who is granting asylum?"
+  },
+  "movement.transportartifact.n/a": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is involved?",
+    "transporter": "Who is the transporter?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "contact.publicstatementinperson.broadcast": {
+    "recipient": "Who is the recipient?",
+    "communicator": "Who is the communicator?",
+    "place": "Where does this event take place?"
+  },
+  "contact.discussion.correspondence": {
+    "place": "Where does this correspondence take place?",
+    "participant": "Who is the participant?"
+  },
+  "movement.transportperson.disperseseparate": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "transaction.transferownership.purchase": {
+    "recipient": "Who is the recipient?",
+    "artifact": "What artifact is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "movement.transportperson.n/a": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "conflict.demonstrate.n/a": {
+    "demonstrator": "Who is the demonstrator?",
+    "place": "Where does this demonstration take place?"
+  },
+  "conflict.demonstrate.marchprotestpoliticalgathering": {
+    "demonstrator": "Who is the demonstrator?",
+    "place": "Where does this event occur?"
+  },
+  "movement.transportperson.smuggleextract": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "inspection.sensoryobserve.physicalinvestigateinspect": {
+    "place": "Where does this inspection take place?",
+    "inspector": "Who is the inspector?",
+    "inspectedentity": "What entity is being inspected?"
+  },
+  "contact.publicstatementinperson.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "justice.judicialconsequences.convict": {
+    "judgecourt": "Who is the judge or court?",
+    "crime": "What is the crime?",
+    "place": "Where does this event occur?",
+    "defendant": "Who is the defendant?"
+  },
+  "contact.funeralvigil.meet": {
+    "deceased": "Who is the deceased?",
+    "place": "Where does this meeting take place?",
+    "participant": "Who is the participant?"
+  },
+  "manufacture.artifact.createmanufacture": {
+    "instrument": "What instrument was used?",
+    "artifact": "What artifact is being created?",
+    "place": "Where does this event take place?",
+    "manufacturer": "Who is the manufacturer?"
+  },
+  "conflict.yield.n/a": {
+    "recipient": "Who is the recipient?",
+    "place": "Where does this yield occur?",
+    "yielder": "Who is the yielder?"
+  },
+  "contact.mediastatement.broadcast": {
+    "recipient": "Who is the recipient?",
+    "communicator": "Who is the communicator?",
+    "place": "Where does this event take place?"
+  },
+  "government.formation.mergegpe": {
+    "place": "Where does this merger take place?",
+    "participant": "Who is the participant?"
+  },
+  "transaction.transfermoney.borrowlend": {
+    "recipient": "Who is the recipient?",
+    "money": "What amount of money is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "transaction.transaction.n/a": {
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this event occur?",
+    "participant": "Who is the participant?"
+  },
+  "transaction.transferownership.embargosanction": {
+    "recipient": "Who is the recipient?",
+    "artifact": "What artifact is involved?",
+    "preventer": "Who is the preventer?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "transaction.transaction.giftgrantprovideaid": {
+    "beneficiary": "Who is the beneficiary?",
+    "giver": "Who is the giver?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this transaction occur?"
+  },
+  "artifactexistence.damagedestroy.damage": {
+    "instrument": "What instrument was used?",
+    "damager": "Who is the damager?",
+    "place": "Where does this event occur?",
+    "artifact": "What is the artifact?"
+  },
+  "contact.prevarication.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "conflict.attack.invade": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "contact.threatencoerce.correspondence": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this correspondence take place?"
+  },
+  "personnel.startposition.n/a": {
+    "employee": "Who is the employee?",
+    "placeofemployment": "What is the place of employment?",
+    "place": "Where does this event occur?"
+  },
+  "contact.funeralvigil.n/a": {
+    "deceased": "Who is the deceased?",
+    "place": "Where does this event take place?",
+    "participant": "Who is the participant?"
+  },
+  "contact.threatencoerce.broadcast": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this event take place?"
+  },
+  "conflict.attack.biologicalchemicalpoisonattack": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "conflict.attack.bombing": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "life.die.nonviolentdeath": {
+    "victim": "Who is the victim?",
+    "place": "Where does this event occur?"
+  },
+  "contact.collaborate.meet": {
+    "place": "Where does this meeting take place?",
+    "participant": "Who is the participant?"
+  },
+  "contact.negotiate.correspondence": {
+    "place": "Where does this correspondence take place?",
+    "participant": "Who is the participant?"
+  },
+  "government.agreements.rejectnullifyagreementcontractceasefire": {
+    "rejecternullifier": "Who is the rejecter or nullifier?",
+    "place": "Where does this event take place?",
+    "otherparticipant": "Who is the other participant?"
+  },
+  "disaster.accidentcrash.accidentcrash": {
+    "crashobject": "What object was involved in the crash?",
+    "driverpassenger": "Who is the driver or passenger?",
+    "vehicle": "What vehicle was involved?",
+    "place": "Where does this event occur?"
+  },
+  "transaction.transferownership.borrowlend": {
+    "recipient": "Who is the recipient?",
+    "artifact": "What artifact is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "movement.transportartifact.preventexit": {
+    "destination": "Where is the intended destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is involved?",
+    "transporter": "Who is the transporter?",
+    "preventer": "Who is the preventer?"
+  },
+  "movement.transportperson.evacuationrescue": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "movement.transportartifact.receiveimport": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is being imported?",
+    "transporter": "Who is the transporter?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "artifactexistence.damagedestroy.n/a": {
+    "instrument": "What instrument was used?",
+    "artifact": "What artifact is involved?",
+    "place": "Where does this event occur?",
+    "damagerdestroyer": "Who is the damager or destroyer?"
+  },
+  "movement.transportartifact.grantentry": {
+    "origin": "Where does the movement originate?",
+    "destination": "Where is the destination?",
+    "artifact": "What artifact is being granted entry?",
+    "transporter": "Who is the transporter?"
+  },
+  "government.vote.castvote": {
+    "voter": "Who is the voter?",
+    "candidate": "Who is the candidate?",
+    "ballot": "What is the ballot about?",
+    "result": "What is the result?",
+    "place": "Where does this voting take place?"
+  },
+  "contact.commandorder.meet": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this meeting take place?"
+  },
+  "conflict.yield.surrender": {
+    "surrenderer": "Who is the surrenderer?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this surrender occur?"
+  },
+  "contact.commandorder.n/a": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this command occur?"
+  },
+  "contact.prevarication.meet": {
+    "communicator": "Who is the communicator?",
+    "recipient": "Who is the recipient?",
+    "place": "Where does this meeting take place?"
+  },
+  "transaction.transferownership.giftgrantprovideaid": {
+    "recipient": "Who is the recipient?",
+    "artifact": "What artifact is involved?",
+    "beneficiary": "Who is the beneficiary?",
+    "place": "Where does this transaction occur?",
+    "giver": "Who is the giver?"
+  },
+  "manufacture.artifact.n/a": {
+    "instrument": "What instrument was used?",
+    "artifact": "What artifact is being manufactured?",
+    "place": "Where does this event occur?",
+    "manufacturer": "Who is the manufacturer?"
+  },
+  "inspection.sensoryobserve.inspectpeopleorganization": {
+    "place": "Where does this inspection take place?",
+    "inspector": "Who is the inspector?",
+    "inspectedentity": "What entity is being inspected?"
+  },
+  "government.vote.n/a": {
+    "voter": "Who is the voter?",
+    "ballot": "What is the ballot about?",
+    "place": "Where does this vote take place?",
+    "candidate": "Who is the candidate?",
+    "result": "What is the result?"
+  },
+  "movement.transportperson.bringcarryunload": {
+    "destination": "Where is the destination?",
+    "origin": "Where does the movement originate?",
+    "transporter": "Who is the transporter?",
+    "passenger": "Who is the passenger?",
+    "vehicle": "What vehicle is being used?"
+  },
+  "inspection.sensoryobserve.monitorelection": {
+    "monitoredentity": "What entity is being monitored?",
+    "monitor": "Who is the monitor?",
+    "place": "Where does this monitoring take place?"
+  },
+  "movement.transportperson.fall": {
+    "origin": "Where does the fall originate?",
+    "destination": "Where is the destination?",
+    "passenger": "Who is the passenger falling?"
+  },
+  "manufacture.artifact.createintellectualproperty": {
+    "instrument": "What instrument was used?",
+    "artifact": "What artifact is being created?",
+    "place": "Where does this event take place?",
+    "manufacturer": "Who is the manufacturer?"
+  },
+  "movement.transportartifact.fall": {
+    "origin": "Where does the fall originate?",
+    "destination": "Where is the destination?",
+    "artifact": "What artifact is falling?"
+  },
+  "contact.mediastatement.n/a": {
+    "recipient": "Who is the recipient?",
+    "communicator": "Who is the communicator?",
+    "place": "Where does this statement take place?"
+  },
+  "conflict.attack.hanging": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "movement.transportartifact.prevententry": {
+    "destination": "Where is the intended destination?",
+    "origin": "Where does the movement originate?",
+    "artifact": "What artifact is involved?",
+    "transporter": "Who is the transporter?",
+    "preventer": "Who is the preventer?"
+  },
+  "conflict.attack.setfire": {
+    "instrument": "What instrument was used?",
+    "attacker": "Who is the attacker?",
+    "place": "Where does this event occur?",
+    "target": "Who is the target?"
+  },
+  "movement.transportperson.selfmotion": {
+    "origin": "Where does the movement originate?",
+    "destination": "Where is the destination?",
+    "transporter": "Who is the transporter?"
+  }
+}

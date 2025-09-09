@@ -1,0 +1,263 @@
+{
+        "life.injure.unspecified": {
+          "victim": "Who is the victim?",
+          "instrument": "What instrument was used?",
+          "injurer": "Who is the injurer?",
+          "bodypart": "Which body part was affected?"
+        },
+        "justice.chargeindict.unspecified": {
+          "defendant": "Who is the defendant?",
+          "judgecourt": "Which judge or court is handling the case?",
+          "prosecutor": "Who is the prosecutor?",
+          "place": "Where is the trial taking place?"
+        },
+        "justice.arrestjaildetain.unspecified": {
+          "detainee": "Who is the detainee?",
+          "jailer": "Who is the jailer?",
+          "place": "Where is the detention taking place?"
+        },
+        "conflict.attack.detonateexplode": {
+          "explosivedevice": "What explosive device was used?",
+          "target": "Who or what is the target?",
+          "attacker": "Who is the attacker?",
+          "place": "Where did the attack occur?",
+          "instrument": "What instrument was used?"
+        },
+        "justice.convict.unspecified": {
+          "defendant": "Who is the defendant?",
+          "judgecourt": "Which judge or court is presiding over the case?"
+        },
+        "justice.investigatecrime.unspecified": {
+          "investigator": "Who is the investigator?",
+          "defendant": "Who is the defendant?",
+          "place": "Where is the investigation taking place?",
+          "observer": "Who is the observer?",
+          "observedentity": "What entity is being observed?"
+        },
+        "cognitive.inspection.sensoryobserve": {
+          "observer": "Who is the observer?",
+          "observedentity": "What entity is being observed?",
+          "instrument": "What instrument is being used?",
+          "place": "Where does the observation occur?"
+        },
+        "conflict.attack.unspecified": {
+          "place": "Where does the attack occur?",
+          "attacker": "Who is the attacker?",
+          "target": "Who is the target?",
+          "instrument": "What instrument is used?"
+        },
+        "contact.contact.unspecified": {
+          "participant": "Who is the participant?",
+          "place": "Where does the contact take place?",
+          "topic": "What is the topic of the contact?"
+        },
+        "life.die.unspecified": {
+          "victim": "Who is the victim?",
+          "place": "Where did the death occur?",
+          "killer": "Who is the killer?"
+        },
+        "artifactexistence.damagedestroydisabledismantle.damage": {
+          "artifact": "What artifact was damaged?",
+          "damager": "Who is the damager?",
+          "place": "Where did the damage occur?",
+          "instrument": "What instrument caused the damage?"
+        },
+        "control.impedeinterferewith.unspecified": {
+          "impeder": "Who is the impeder?",
+          "place": "Where does the interference occur?"
+        },
+        "genericcrime.genericcrime.genericcrime": {
+          "place": "Where did the crime take place?",
+          "perpetrator": "Who is the perpetrator?",
+          "victim": "Who is the victim?"
+        },
+        "movement.transportation.unspecified": {
+          "vehicle": "What vehicle is being used?",
+          "passengerartifact": "What passenger or artifact is being transported?",
+          "transporter": "Who is the transporter?",
+          "origin": "Where does the movement originate?",
+          "destination": "Where is the destination?"
+        },
+        "contact.contact.broadcast": {
+          "place": "Where does the broadcast take place?",
+          "communicator": "Who is the communicator?",
+          "recipient": "Who is the recipient?",
+          "topic": "What is the topic of the broadcast?",
+          "instrument": "What instrument is used for the broadcast?"
+        },
+        "artifactexistence.damagedestroydisabledismantle.destroy": {
+          "artifact": "What artifact was destroyed?",
+          "instrument": "What instrument was used?",
+          "place": "Where did the destruction occur?",
+          "destroyer": "Who destroyed it?"
+        },
+        "medical.intervention.unspecified": {
+          "patient": "Who is the patient?",
+          "treater": "Who is the treater?",
+          "place": "Where does the intervention take place?"
+        },
+        "conflict.demonstrate.unspecified": {
+          "demonstrator": "Who is the demonstrator?",
+          "topic": "What is the topic of the demonstration?",
+          "target": "Who is the target of the demonstration?"
+        },
+        "contact.threatencoerce.unspecified": {
+          "communicator": "Who is the communicator?",
+          "recipient": "Who is the recipient?"
+        },
+        "contact.requestcommand.broadcast": {
+          "communicator": "Who is the communicator?",
+          "recipient": "Who is the recipient?"
+        },
+        "cognitive.identifycategorize.unspecified": {
+          "identifiedobject": "What object is identified?",
+          "identifier": "Who is the identifier?",
+          "identifiedrole": "What is the identified role?",
+          "place": "Where does this identification take place?"
+        },
+        "contact.contact.meet": {
+          "participant": "Who is the participant?",
+          "topic": "What is the topic of the meeting?",
+          "place": "Where does the meeting occur?"
+        },
+        "movement.transportation.evacuation": {
+          "transporter": "Who is the transporter?",
+          "passengerartifact": "What passenger or artifact is being evacuated?",
+          "origin": "Where does the evacuation begin?",
+          "destination": "Where is the evacuation going?"
+        },
+        "justice.acquit.unspecified": {
+          "defendant": "Who is the defendant being acquitted?"
+        },
+        "artifactexistence.manufactureassemble.unspecified": {
+          "manufacturerassembler": "Who is the manufacturer or assembler?",
+          "components": "What components are involved?",
+          "artifact": "What artifact is being manufactured?",
+          "place": "Where does this manufacturing take place?"
+        },
+        "artifactexistence.damagedestroydisabledismantle.dismantle": {
+          "components": "What components are being dismantled?",
+          "instrument": "What instrument is used for dismantling?",
+          "place": "Where does this dismantling occur?",
+          "artifact": "What artifact is being dismantled?",
+          "dismantler": "Who is the dismantler?"
+        },
+        "justice.sentence.unspecified": {
+          "defendant": "Who is the defendant?",
+          "judgecourt": "Which judge or court is presiding?",
+          "place": "Where does the sentencing occur?"
+        },
+        "justice.trialhearing.unspecified": {
+          "defendant": "Who is the defendant?",
+          "place": "Where does the trial take place?",
+          "prosecutor": "Who is the prosecutor?",
+          "judgecourt": "Which judge or court is handling the trial?"
+        },
+        "transaction.exchangebuysell.unspecified": {
+          "recipient": "Who is the recipient?",
+          "acquiredentity": "What entity is being acquired?",
+          "giver": "Who is the giver?",
+          "paymentbarter": "What payment or barter is used?"
+        },
+        "movement.transportation.preventpassage": {
+          "destination": "Where is the intended destination?",
+          "preventer": "Who is the preventer?",
+          "origin": "Where does the movement originate?",
+          "vehicle": "What vehicle is being used?",
+          "passengerartifact": "What passenger or artifact is involved?",
+          "transporter": "Who is the transporter?"
+        },
+        "contact.contact.correspondence": {
+          "participant": "Who is the participant in the correspondence?",
+          "place": "Where does the correspondence take place?",
+          "topic": "What is the topic?"
+        },
+        "contact.threatencoerce.broadcast": {
+          "recipient": "Who is the recipient?",
+          "communicator": "Who is the communicator?"
+        },
+        "contact.requestcommand.unspecified": {
+          "communicator": "Who is the communicator?",
+          "recipient": "Who is the recipient?",
+          "place": "Where does this request take place?"
+        },
+        "conflict.defeat.unspecified": {
+          "victor": "Who is the victor?",
+          "defeated": "Who is defeated?",
+          "place": "Where does the defeat occur?"
+        },
+        "life.infect.unspecified": {
+          "victim": "Who is the victim of the infection?"
+        },
+        "cognitive.research.unspecified": {
+          "researcher": "Who is the researcher?",
+          "subject": "What subject is being researched?",
+          "place": "Where does the research take place?"
+        },
+        "disaster.crash.unspecified": {
+          "vehicle": "What vehicle was involved in the crash?",
+          "place": "Where did the crash occur?",
+          "crashobject": "What object caused the crash?"
+        },
+        "artifactexistence.damagedestroydisabledismantle.unspecified": {
+          "artifact": "What artifact is involved?",
+          "instrument": "What instrument is being used?",
+          "damagerdestroyer": "Who is the damager or destroyer?",
+          "place": "Where does this incident occur?"
+        },
+        "movement.transportation.illegaltransportation": {
+          "passengerartifact": "What passenger or artifact is being illegally transported?",
+          "destination": "Where is the destination?",
+          "transporter": "Who is the transporter?",
+          "vehicle": "What vehicle is being used?"
+        },
+        "conflict.demonstrate.demonstratewithviolence": {
+          "demonstrator": "Who is the demonstrator?",
+          "regulator": "Who is the regulator?"
+        },
+        "contact.threatencoerce.correspondence": {
+          "recipient": "Who is the recipient?",
+          "communicator": "Who is the communicator?"
+        },
+        "personnel.endposition.unspecified": {
+          "employee": "Who is the employee?",
+          "placeofemployment": "What is the place of employment?"
+        },
+        "artifactexistence.damagedestroydisabledismantle.disabledefuse": {
+          "artifact": "What artifact is being disabled or defused?",
+          "instrument": "What instrument is being used?",
+          "disabler": "Who is the disabler?"
+        },
+        "personnel.startposition.unspecified": {
+          "employee": "Who is the employee?",
+          "placeofemployment": "What is the place of employment?",
+          "place": "Where does this position start?",
+          "position": "What position is being filled?"
+        },
+        "cognitive.teachingtraininglearning.unspecified": {
+          "learner": "Who is the learner?",
+          "teachertrainer": "Who is the teacher or trainer?"
+        },
+        "justice.releaseparole.unspecified": {
+          "defendant": "Who is the defendant being released?"
+        },
+        "transaction.donation.unspecified": {
+          "recipient": "Who is the recipient?",
+          "giver": "Who is the giver?",
+          "artifactmoney": "What artifact or money is being donated?"
+        },
+        "disaster.diseaseoutbreak.unspecified": {
+          "place": "Where did the outbreak occur?",
+          "disease": "What disease is involved?",
+          "victim": "Who is the victim?"
+        },
+        "contact.requestcommand.meet": {
+          "recipient": "Who is the recipient?",
+          "communicator": "Who is the communicator?"
+        },
+        "contact.requestcommand.correspondence": {
+          "recipient": "Who is the recipient?",
+          "communicator": "Who is the communicator?",
+          "topic": "What is the topic?"
+        }
+      }

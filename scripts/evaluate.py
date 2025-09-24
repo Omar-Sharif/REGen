@@ -22,16 +22,12 @@ def main():
 
     base_path = os.path.abspath(args.base_path)
 
-    try:
-        from regen.evaluate import (
-        get_predictions_for_results,
-        getting_role_wise_scores,
-        getting_exact_relaxed_match_predictions_dictionary,
-        doing_complex_matching,
-        getting_complex_match_predictions_dictionary,
-    )
-    except Exception:
-        from Generic_Functions_Evaluation import (
+    # Ensure src/ is on sys.path so `regen` is importable
+    src_dir = os.path.join(base_path, 'src')
+    if os.path.isdir(src_dir) and src_dir not in sys.path:
+        sys.path.insert(0, src_dir)
+
+    from regen.evaluate import (
         get_predictions_for_results,
         getting_role_wise_scores,
         getting_exact_relaxed_match_predictions_dictionary,

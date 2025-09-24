@@ -29,10 +29,7 @@ def main():
     base_path = os.path.abspath(args.base_path)
     ensure_parent_on_path(base_path)
 
-    try:
-        from regen.process import get_raw_predictions_and_schema, list_normalization, get_process_predictions
-    except Exception:
-        from Generic_Functions_Process_Predictions import get_raw_predictions_and_schema, list_normalization, get_process_predictions
+    from regen.process import get_raw_predictions_and_schema, list_normalization, get_process_predictions
 
     raw_predictions, event_schema = get_raw_predictions_and_schema(
         path=base_path,

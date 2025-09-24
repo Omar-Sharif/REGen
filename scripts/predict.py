@@ -31,10 +31,7 @@ def main():
     base_path = os.path.abspath(args.base_path)
     ensure_parent_on_path(base_path)
 
-    try:
-        from regen.predictions import get_test_data_and_schema, get_model_predictions
-    except Exception:
-        from Generic_Functions_Get_Predictions import get_test_data_and_schema, get_model_predictions
+    from regen.predictions import get_test_data_and_schema, get_model_predictions
 
     data_dir = os.path.join(base_path, 'Data')
     data, event_schema = get_test_data_and_schema(data_dir, args.dataset)

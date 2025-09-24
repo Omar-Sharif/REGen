@@ -1,8 +1,7 @@
-## REGen: Event Argument Extraction Pipeline
+## REGen: A Reliable Evaluation Framework for Generative Event Argument Extraction
 
 This repo folder provides reusable scripts to run prediction, post-processing, and evaluation for event argument extraction across multiple datasets for our REGen framework:
 - DiscourseEE, DocEE, RAMS, WikiEvents, PHEE, GENEVA, DICE
-
 
 ### Prerequisites
 - Python 3.10+
@@ -21,7 +20,7 @@ pip install -r requirements.txt
 ### Data and Outputs
 - **Datasets**: `Data/<DatasetName>/` (e.g., `Data/RAMS/`)
 - **Outputs**: `Result/<DatasetName>/` (e.g., `Result/RAMS/`)
-- 
+
 ### Datasets Expected Format
 Each dataset directory contains:
 - `<DatasetName>_schema.json`: event schema required by prompts and evaluation
@@ -39,19 +38,17 @@ export HUGGINGFACEHUB_API_TOKEN=your_hf_token    # for --mode hug_api
 ```
 
 ### Command Line Overview
-All commands accept a `--base-path` that points to the project root.
-
 Common arguments:
 - `--dataset`: one of RAMS, DocEE, DiscourseEE, WikiEvents, PHEE, GENEVA
 - `--model-name`: short tag used in filenames (e.g., `GPT4o`, `Llama3.1-70B`, `Phi-3.5`, `Gemma1.1-7B`, `Mixtral-8x7B`)
 - `--prompt-type`: `zero-shot` or `cot`
 - `--version`: integer tag added to filenames (default: 0)
 
-Provider-specific:
+LLM-Inference:
 - `--mode`: `openai`, `hug_api`, or `anthropic` (we did not run experiment with anthropic
 - `--model-access-string`: provider model id (e.g., `gpt-4o-2024-11-20`, `meta-llama/Llama-3.1-70B-Instruct`, `mistralai/Mixtral-8x7B-Instruct-v0.1`, `google/gemma-1.1-7b-it`, `microsoft/Phi-3.5-mini-instruct`). Different model string we have used for openai and hugginface models
 
-Evaluation extras:
+Evaluation:
 - `--threshold`: relaxed/complex threshold (default 0.85). We define this threshold through human judgement. Please check the paper.
 - `--do-complex`: `true`/`false` to run complex matching via an LLM judge
 - `--judge-mode`, `--judge-model-access-string`, `--judge-model-name`: judge model config when `--do-complex true`

@@ -1,4 +1,5 @@
 ## REGen: A Reliable Evaluation Framework for Generative Event Argument Extraction
+[Paper link](https://arxiv.org/pdf/2502.16838) (Accepted in EMNLP-2025 Findings)
 
 This repo folder provides reusable scripts to run prediction, post-processing, and evaluation for event argument extraction across multiple datasets for our REGen framework:
 - DiscourseEE, DocEE, RAMS, WikiEvents, PHEE, GENEVA, DICE
@@ -16,6 +17,8 @@ conda create -n REGen python=3.10 -y
 conda activate REGen
 pip install -r requirements.txt
 ```
+### Data Preprocessing
+All the datasets are preprocess following the description in Section 2.1 and Appendix C in our paper. Notably we took an trigger-free approach to prepare the dataset. 
 
 ### Data and Outputs
 - **Datasets**: `Data/<DatasetName>/` (e.g., `Data/RAMS/`)

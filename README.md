@@ -180,3 +180,22 @@ Check two notebooks to get additional analysis on top of the core pipeline. They
 - **Import errors**: Make sure you're in the project root and have installed dependencies
 
 
+### Citation
+
+If you use this codebase or results in your research, please cite:
+
+```bash
+@misc{sharif2025regenreliableevaluationframework,
+      title={REGen: A Reliable Evaluation Framework for Generative Event Argument Extraction}, 
+      author={Omar Sharif and Joseph Gatto and Madhusudan Basak and Sarah M. Preum},
+      year={2025},
+      eprint={2502.16838},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.16838}, 
+}
+```
+
+
+
+

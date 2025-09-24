@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Large raw datasets (keep schemas)
+Data/**/train.json
+Data/**/test.json
+Data/**/dev.json
+Data/**/train.jsonl
+Data/**/test.jsonl
+Data/**/dev.jsonl
+Data/**/train.jsonlines
+Data/**/test.jsonlines
+Data/**/dev.jsonlines
+
+# Generated outputs
+Result/

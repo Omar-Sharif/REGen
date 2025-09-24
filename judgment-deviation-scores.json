@@ -1,0 +1,32 @@
+{
+"DiscourseEE": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0.026,
+        "complex-match-GPT-4o-judge": 0.133
+        },
+"PHEE": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0,
+        "complex-match-GPT-4o-judge": 0.073
+        },
+"RAMS": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0.013,
+        "complex-match-GPT-4o-judge": 0.086
+        },
+"GENEVA": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0.02,
+        "complex-match-GPT-4o-judge": 0.08
+        },
+"DocEE": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0.033,
+        "complex-match-GPT-4o-judge": 0.16
+        },
+"WikiEvents": {
+        "exact-match": 0,
+        "relaxed-match-0.85-threshold": 0,
+        "complex-match-GPT-4o-judge": 0.113
+        }
+}
